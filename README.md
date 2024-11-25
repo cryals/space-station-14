@@ -75,19 +75,19 @@ Build the server and use `dotnet build` or `dotnet build --configuration Release
 ## License
 
 <details>
-<summary><a href="#"><img src="https://img.shields.io/badge/licence-MIT-green?style=for-the-badge" alt="MIT license"></a></summary>
+<summary><img src="https://img.shields.io/badge/licence-MIT-green?style=for-the-badge" alt="MIT license"></summary>
 
 >All code for the content repository is licensed under [MIT](https://github.com/space-wizards/space-station-14/blob/master/LICENSE.TXT).
 </details>
 
 <details>
-<summary><a href="#"><img src="https://img.shields.io/badge/licence-CC_3.0_BY--SA-lightblue?style=for-the-badge" alt="Creative Commons 3.0 BY-SA"></a></summary>
+<summary><img src="https://img.shields.io/badge/licence-CC_3.0_BY--SA-lightblue?style=for-the-badge" alt="Creative Commons 3.0 BY-SA"></summary>
 
 >Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 </details>
 
 <details>
-<summary><a href="#"><img src="https://img.shields.io/badge/licence-CC_3.0_BY--NC--SA-lightblue?style=for-the-badge" alt="Creative Commons 3.0 BY-SA"></a></summary>
+<summary><img src="https://img.shields.io/badge/licence-CC_3.0_BY--NC--SA-lightblue?style=for-the-badge" alt="Creative Commons 3.0 BY-SA"></summary>
 
 >Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
 </details>
