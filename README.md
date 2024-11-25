@@ -1,9 +1,5 @@
 <div class="header" align="center"> <img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg" </p>
 
-![GitHub License](https://img.shields.io/github/license/space-wizards/space-station-14?style=for-the-badge&logo=github)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/space-wizards/space-station-14?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/space-wizards/space-station-14?style=for-the-badge&logo=helpdesk&logoColor=white)
-
 </div>
 
 Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), our homegrown engine written in C#.
@@ -15,18 +11,18 @@ If you want to host or create content for SS14, this is the repo you need. It co
 ## Links
 <div class="header" align="center">
 
-[![Website](https://img.shields.io/badge/Website-grey?style=for-the-badge&logo=homepage&logoColor=white)](https://spacestation14.io/)
+[![Website](https://img.shields.io/badge/Website-grey?style=for-the-badge&logo=homepage&logoColor=white)](https://spacestation14.com/)
 [![Discord](https://img.shields.io/discord/310555209753690112?style=for-the-badge&logo=Discord&logoColor=white&label=Discord)](https://discord.ss14.io/)
-[![Forum](https://img.shields.io/badge/Forum-grey?style=for-the-badge&logo=formspree&logoColor=white)](https://forum.spacestation14.io/)
+[![Forum](https://img.shields.io/badge/Forum-grey?style=for-the-badge&logo=formspree&logoColor=white)](https://forum.spacestation14.com/)
 [![Steam](https://img.shields.io/badge/Steam-Playtest-g?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/1255460/Space_Station_14/)
-[![Standalone Download](https://img.shields.io/badge/Standalone_Download-grey?style=for-the-badge&logo=googlecloudstorage&logoColor=white)](https://spacestation14.io/about/nightlies/)
+[![Standalone Download](https://img.shields.io/badge/Standalone_Download-grey?style=for-the-badge&logo=googlecloudstorage&logoColor=white)](https://spacestation14.com/about/nightlies/)
 [![Standalone Download](https://img.shields.io/badge/Space_Wizards_Development_Wiki-grey?style=for-the-badge&logo=gitbook&logoColor=white)](https://docs.spacestation14.com/)
 
 </div>
 
 ## Documentation/Wiki
 
-Our [docs site](https://docs.spacestation14.io/) has documentation on SS14s content, engine, game design and more. We also have lots of resources for new contributors to the project.
+Our [docs site](https://docs.spacestation14.com/) has documentation on SS14s content, engine, game design and more. We also have lots of resources for new contributors to the project.
 
 ## Contributing
 
@@ -35,38 +31,17 @@ Just make sure your changes and pull requests are in accordance with the [contri
 
 We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language consider creating a fork or contributing to a fork.
 
-## Project activity
-<!---
-CHANGE THE API!!!! API can be obtained on the website repobeats.axiom.co | HERE, FOR EXAMPLE, THERE IS AN API FROM ANOTHER REPOSITORY
---->
-![Project activity](https://repobeats.axiom.co/api/embed/4637fb51923408d570b8e555b3fde24eedb2bfea.svg 'Repobeats analytics image')
-
-## Project contributors
-
-List of people who contributed to the project:
-
-[![Contributors](https://contrib.rocks/image?repo=space-wizards/space-station-14)](https://github.com/space-wizards/space-station-14/graphs/contributors)
-
 ## Building
 
-**Clone** this repo:
-```shell
-# Cloning using HTTPS repository access
-git clone https://github.com/{user}/space-station-14.git
-
-# Cloning using SSH repository access
-git clone git@github.com:{user}/space-station-14.git
+1. Clone this repo:
+```shell https://github.com/space-wizards/space-station-14.git
 ```
-
-> [!NOTE]
-> Replace `{user}` to your GitHub username. The easiest way to find it is in the GitHub service at the very top of the repository page.
-
-**Go** to the project folder and run `RUN_THIS.py` to initialize the sub-modules and load the engine:
+2. Go to the project folder and run `RUN_THIS.py` to initialize the sub-modules and load the engine:
 ```shell
 cd space-station-14
 python RUN_THIS.py
 ```
-Compile the solution: 
+3. Compile the solution: 
 
 Build the server and use `dotnet build` or `dotnet build --configuration Release` (if necessary).
 
