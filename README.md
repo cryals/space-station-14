@@ -14,6 +14,7 @@ If you want to host or create content for SS14, this is the repo you need. It co
 [![Website](https://img.shields.io/badge/Website-grey?style=for-the-badge&logo=homepage&logoColor=white)](https://spacestation14.com/)
 [![Discord](https://img.shields.io/discord/310555209753690112?style=for-the-badge&logo=Discord&logoColor=white&label=Discord)](https://discord.ss14.io/)
 [![Forum](https://img.shields.io/badge/Forum-grey?style=for-the-badge&logo=formspree&logoColor=white)](https://forum.spacestation14.com/)
+![Mastodon Follow](https://img.shields.io/mastodon/follow/109494536058468816?domain=https%3A%2F%2Fmastodon.gamedev.place&style=for-the-badge&logo=Mastodon&logoColor=white)
 [![Steam](https://img.shields.io/badge/Steam-Playtest-g?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/1255460/Space_Station_14/)
 [![Standalone Download](https://img.shields.io/badge/Standalone_Download-grey?style=for-the-badge&logo=googlecloudstorage&logoColor=white)](https://spacestation14.com/about/nightlies/)
 [![Standalone Download](https://img.shields.io/badge/Space_Wizards_Development_Wiki-grey?style=for-the-badge&logo=gitbook&logoColor=white)](https://docs.spacestation14.com/)
