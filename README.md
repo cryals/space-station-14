@@ -34,7 +34,8 @@ We are not currently accepting translations of the game on our main repository. 
 ## Building
 
 1. Clone this repo:
-```shell https://github.com/space-wizards/space-station-14.git
+```shell
+git clone https://github.com/space-wizards/space-station-14.git
 ```
 2. Go to the project folder and run `RUN_THIS.py` to initialize the sub-modules and load the engine:
 ```shell
