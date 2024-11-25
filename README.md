@@ -3,7 +3,7 @@
 [![RobustToolbox](https://img.shields.io/badge/Robust_Toolbox-grey?style=for-the-badge&logo=framework&logoColor=white)](https://github.com/space-wizards/RobustToolbox)
 <!--- It's worth changing to something, but I do not know what, I did not find a suitable icon in the library, but I can not cram my own. --> 
 [![SS14.Launcher](https://img.shields.io/badge/SS14_Launcher-grey?style=for-the-badge&logo=fluentd&logoColor=white)](https://github.com/space-wizards/SS14.Launcher)
-[![.NET](https://img.shields.io/badge/.NET-8-purple?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+[![.NET](https://img.shields.io/badge/dotnet-8-purple?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 
 </div>
 
