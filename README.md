@@ -26,13 +26,17 @@ If you want to host or create content for SS14, this is the repo you need. It co
 [![Pateron](https://img.shields.io/badge/Pateron-grey?style=for-the-badge&logo=pateron&logoColor=white)](https://www.patreon.com/spacestation14)
 [![Steam](https://img.shields.io/badge/Steam-Playtest-g?style=for-the-badge&logo=steam&logoColor=white)](https://store.steampowered.com/app/1255460/Space_Station_14/)
 [![Standalone Download](https://img.shields.io/badge/Standalone_Download-grey?style=for-the-badge&logo=googlecloudstorage&logoColor=white)](https://spacestation14.com/about/nightlies/)
-[![Dev Wiki](https://img.shields.io/badge/Space_Wizards_Development_Wiki-grey?style=for-the-badge&logo=mdbook&logoColor=white)](https://docs.spacestation14.com/)
-[![Game Wiki](https://img.shields.io/badge/Game_Wiki-grey?style=for-the-badge&logo=gitbook&logoColor=white)](https://wiki.ss14.io/)
-
 
 </div>
 
 ## Documentation/Wiki
+
+<div class="header" align="center">
+
+[![DevWiki](https://img.shields.io/badge/Space_Wizards_Development_Wiki-grey?style=for-the-badge&logo=mdbook&logoColor=white)](https://docs.spacestation14.com/)
+[![GameWiki](https://img.shields.io/badge/Game_Wiki-grey?style=for-the-badge&logo=gitbook&logoColor=white)](https://wiki.ss14.io/) 
+
+</div>
 
 Our [docs site](https://docs.spacestation14.com/) has documentation on SS14s content, engine, game design and more. We also have lots of resources for new contributors to the project.
 
