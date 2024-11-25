@@ -87,10 +87,8 @@ Build the server and use `dotnet build` or `dotnet build --configuration Release
 </details>
 
 <details>
-<summary>
-<img src="https://img.shields.io/badge/licence-CC_3.0_BY--NC--SA-lightblue?style=for-the-badge" alt="Creative Commons 3.0 BY-SA" style="cursor: pointer;">
-</summary>
+<summary><a><img src="https://img.shields.io/badge/licence-CC_3.0_BY--NC--SA-lightblue?style=for-the-badge" alt="Creative Commons 3.0 BY-SA"></a></summary>
 
-> Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
-
+>Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
 </details>
+ 
