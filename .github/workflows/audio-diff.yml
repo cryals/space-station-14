@@ -1,0 +1,67 @@
+name: Audio Diff
+
+on:
+  pull_request:
+    paths:
+      - 'Resources/Audio/**.ogg'
+
+jobs:
+  diff:
+    name: Audio Diff
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4.2.2
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Get changed files
+        id: files
+        uses: Ana06/get-changed-files@v2.3.0
+        with:
+          format: 'space-delimited'
+          filter: '**.ogg'
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Analyze audio files
+        id: analyze
+        env:
+          GH_OWNER: ${{ github.repository_owner }}
+          GH_REPO: ${{ github.event.repository.name }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          python3 Tools/audio_diff.py \
+            "${{ steps.files.outputs.added }}" \
+            "${{ steps.files.outputs.modified }}" \
+            "${{ steps.files.outputs.removed }}"
+
+      - name: Find existing comment
+        uses: peter-evans/find-comment@v1
+        id: fc
+        with:
+          issue-number: ${{ github.event.number }}
+          comment-author: 'github-actions[bot]'
+          body-includes: Audio Diff Bot
+
+      - name: Create comment
+        if: steps.fc.outputs.comment-id == ''
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.number }}
+          body: ${{ steps.analyze.outputs.comment_body }}
+
+      - name: Update comment
+        if: steps.fc.outputs.comment-id != ''
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          comment-id: ${{ steps.fc.outputs.comment-id }}
+          edit-mode: replace
+          body: ${{ steps.analyze.outputs.comment_body }}
+
+      - name: Fail on audio errors
+        if: steps.analyze.outputs.has_errors == 'true'
+        run: |
+          echo "::error:: Some audio files do not meet the requirements. See comment for details."
+          exit 1
